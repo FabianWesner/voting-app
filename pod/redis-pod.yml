@@ -1,3 +1,4 @@
+# REPLACED BY deployment
 apiVersion: v1
 kind: Pod
 metadata:
@@ -11,4 +12,4 @@ spec:
     - name: redis
       image: redis
       ports:
-        - containerPort: 6379 # default port of Redis
+        - containerPort: 6379 # defaul t port of Redis
